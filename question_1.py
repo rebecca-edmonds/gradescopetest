@@ -14,7 +14,7 @@ def compute_code(board:list[int]) -> int:
         int: the code corresponding to the state of the board represented by 
         the list of int.
     """
-    code = 0
+    code = 5
     if (len(board) != 9 
         or board.count(0) != 3 
         or board.count(1) != 3 
